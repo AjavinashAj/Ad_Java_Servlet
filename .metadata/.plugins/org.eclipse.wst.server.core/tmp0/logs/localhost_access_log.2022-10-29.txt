@@ -1,0 +1,5 @@
+127.0.0.1 - - [29/Oct/2022:00:03:56 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [29/Oct/2022:00:03:56 +0530] "GET /SessionTracking_App1/ HTTP/1.1" 200 309
+0:0:0:0:0:0:0:1 - - [29/Oct/2022:00:03:57 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [29/Oct/2022:00:04:11 +0530] "POST /SessionTracking_App1/login HTTP/1.1" 200 342
+0:0:0:0:0:0:0:1 - - [29/Oct/2022:00:04:31 +0530] "POST /SessionTracking_App1/login HTTP/1.1" 200 342

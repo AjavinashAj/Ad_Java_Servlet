@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- servlet Ddeclaration -->
+<Servlet>
+    <Servlet-name>FirstServlet</Servlet-name>
+    <Servlet-class> app.FirstServlet</Servlet-class>
+</Servlet>
+
+<!--mapping-->
+
+
+<Servlet-mapping>
+     <Servlet-name>FirstServlet</Servlet-name>
+     <Servlet-class>app.FirstServlet</Servlet-class>
+</Servlet-mapping>

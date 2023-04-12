@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <Servlet>
+          <Servlet-name>Welcome</Servlet-name>
+          <Servlet-class>test.Welcome</Servlet-class>
+  </Servlet>
+  <Servlet-mapping>
+        <servlet-name>Welcome</servlet-name>
+        <url-pattern>/Welcome</url-pattern>
+  </Servlet-mapping>
+</web-app>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+ <form action="dis" method="Post">
+ Product Name:<input type="text" name="name"><br>
+ Product Code:<input type="text" name="code"><br>
+ Product Price:<input type="text" name="price"><br>
+ Product Qty:<input type="text" name="qty"><br>
+ <input type="text" value="Display">
+ </form>
+</body>
+</html>

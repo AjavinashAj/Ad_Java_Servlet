@@ -1,0 +1,56 @@
+package test;
+import java.io.*;
+import javax.servlet.*;
+import javax.servlet.annotation.*;
+@SuppressWarnings("serial")
+@WebServlet("/choice")
+public class ChoiceServlet extends GenericServlet {
+	public void init() throws ServletException{
+		//No code
+	}
+	public void service(ServletRequest req,ServletResponse res) throws
+	ServletException,IOException{
+		String s1=req.getParameter("s1");
+		if(s1.equals("GreaterValue")) {
+			RequestDispatcher rd=req.getRequestDispatcher("greater");
+			rd.forward(req, res);
+			
+		}
+		else if(s1.equals("Smaller"))
+		{
+			RequestDispatcher rd=req.getRequestDispatcher("smaller");
+			rd.forward(req, res);
+			
+		}
+		else if(s1.equals("Add"))
+		{
+		    RequestDispatcher rd=req.getRequestDispatcher("add");
+		     rd.forward(req,res);
+		}
+		else if(s1.equals("Sub"))
+		{
+			RequestDispatcher rd=req.getRequestDispatcher("sub");
+			rd.forward(req, res);
+			
+		}
+		else if(s1.equals("Mul"))
+		{
+			RequestDispatcher rd=req.getRequestDispatcher("mul");
+			rd.forward(req,res);
+		}
+		else if(s1.equals("div"))
+		{
+			RequestDispatcher rd=req.getRequestDispatcher("div");
+			rd.forward(req, res);
+		}
+		else
+		{
+			RequestDispatcher rd=req.getRequestDispatcher("mod");
+			rd.forward(req, res);
+		}
+	}
+
+	public void destroy() {
+		//no code
+	}
+}

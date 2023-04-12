@@ -1,0 +1,6 @@
+127.0.0.1 - - [21/Oct/2022:01:19:58 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [21/Oct/2022:01:19:59 +0530] "GET /Servlet_Assigment_insert_db_bookdetails/ HTTP/1.1" 200 460
+0:0:0:0:0:0:0:1 - - [21/Oct/2022:01:20:00 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [21/Oct/2022:01:20:44 +0530] "POST /Servlet_Assigment_insert_db_bookdetails/add HTTP/1.1" 200 495
+0:0:0:0:0:0:0:1 - - [21/Oct/2022:01:22:49 +0530] "GET /TypeOfNumber/ HTTP/1.1" 404 768
+0:0:0:0:0:0:0:1 - - [21/Oct/2022:01:22:49 +0530] "GET /favicon.ico HTTP/1.1" 404 762

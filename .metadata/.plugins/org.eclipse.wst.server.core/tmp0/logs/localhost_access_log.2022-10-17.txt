@@ -1,0 +1,8 @@
+127.0.0.1 - - [17/Oct/2022:22:08:30 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [17/Oct/2022:22:08:31 +0530] "GET /Servlet_application2/ HTTP/1.1" 200 418
+0:0:0:0:0:0:0:1 - - [17/Oct/2022:22:08:39 +0530] "POST /Servlet_application2/dis HTTP/1.1" 404 779
+0:0:0:0:0:0:0:1 - - [17/Oct/2022:22:09:10 +0530] "GET /Servlet_application2/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/Oct/2022:22:09:31 +0530] "POST /Servlet_application2/dis HTTP/1.1" 404 779
+127.0.0.1 - - [17/Oct/2022:22:14:33 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [17/Oct/2022:22:14:34 +0530] "GET /Servlet_application2/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/Oct/2022:22:14:50 +0530] "POST /Servlet_application2/dis HTTP/1.1" 200 52

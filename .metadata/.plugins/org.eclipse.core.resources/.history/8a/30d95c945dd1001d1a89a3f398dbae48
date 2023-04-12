@@ -1,0 +1,13 @@
+package app;
+import java.io.*;
+import javax.servlet.*;
+import javax.servlet.annotation.*;
+public class FirstServlet implements Servlet{
+	//life cycle methods
+	public void init(ServletConfig conf)
+	{
+		
+	}
+
+	
+}

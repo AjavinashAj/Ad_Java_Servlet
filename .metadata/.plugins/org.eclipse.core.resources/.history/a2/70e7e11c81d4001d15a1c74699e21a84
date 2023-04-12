@@ -1,0 +1,33 @@
+package test;
+import java.io.*;
+import javax.servlet.*;
+import javax.servlet.annotation.*;
+@WebServlet("/greater")
+@SuppressWarnings("serial")
+public class GreaterServlet extends GenericServlet{
+	public void init() throws ServletException{
+		System.out.println("Initialization....");
+	}
+	public void service(ServletRequest req,ServletResponse res) throws ServletException,IOException
+	{
+		Integer v1=Integer.parseInt(req.getParameter("v1"));
+		Integer v2=Integer.parseInt(req.getParameter("v2"));
+		int v3=0;
+		PrintWriter pw=res.getWriter();
+		res.setContentType("text/html");
+		if(v1>v2)
+		{
+			pw.print(v1+"greater");
+		}
+		else
+		{
+			pw.print(v2+"greater");
+		}
+		
+	}
+	public void destroy()
+	{
+		System.out.println("destroy....");
+	}
+
+}
